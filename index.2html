@@ -1,0 +1,35 @@
+<html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title> Obuwie </title>
+           <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+              <h1>Obuwie meskie</h1>
+        </header>
+
+        <main>
+            <form action="zamow.php" method="post">
+                <label for="model">Model: </label>
+                <select name="model" id="model" class="kontrolki">
+                </select>
+                <label for="rozmiar">Rozmiar: </label>
+                 <select name="rozmiar" id="rozmiar" class="kontrolki">
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                  </select>
+                <label for="liczba">Liczba par: </label>
+                <input type="number" name="liczba" id="liczba" class="kontrolki">
+                <input type="submit" value="Zamów" class="kontrolki">
+              </form>
+          </main>
+
+        <footer>
+            <p>Autor strony:mateusz</p>
+        </footer>
+    </body>
+</html>
